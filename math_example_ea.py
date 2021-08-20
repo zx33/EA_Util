@@ -32,3 +32,4 @@ ea_helper = EA_Util(
 elite = ea_helper.evolution()
 print(ea_helper.fitness[elite]-100)
 print('Hello')
+print('Bye')
