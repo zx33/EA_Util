@@ -4,7 +4,7 @@ import time
 import math
 
 import numpy as np
-import tensorflow as tf
+# import tensorflow as tf
 
 from EA_Util import EA_Util
 
@@ -31,3 +31,4 @@ ea_helper = EA_Util(
 )
 elite = ea_helper.evolution()
 print(ea_helper.fitness[elite]-100)
+print('Hello')
